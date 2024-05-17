@@ -18,5 +18,5 @@ Some Notes:
 The XOR and RC4 ciphers can work with binary data and can encrypt or decrypt almost any file, including images (such as in the example directory attached!).
 
 
-2. The directory is hardcoded into RBAencryption.py and RBAdecryption.py under the assignment 'directory = "..."'. If you want to change the directory you might need to change it in the code. 
+2. The directory that will be recursively scanned and have its files encrypted is hardcoded into RBAencryption.py and RBAdecryption.py under the assignment 'directory = "..."'. If you want to change the directory you might need to change it in the code. 
  
