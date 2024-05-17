@@ -16,4 +16,7 @@ Some Notes:
 1. The VIG and DES only works for alphanumeric inputs (files opened with "r" access), as VIG is a poly-alphabetic cipher. I was so close to getting the DES to work with binary data, but due to its complexity and time-limits I only managed to get it to be 100% successful with "r" data (not binary data).
 
 The XOR and RC4 ciphers can work with binary data and can encrypt or decrypt almost any file, including images (such as in the example directory attached!).
+
+
+2. The directory is hardcoded into RBAencryption.py and RBAdecryption.py under the assignment 'directory = "..."'. If you want to change the directory you might need to change it in the code. 
  
